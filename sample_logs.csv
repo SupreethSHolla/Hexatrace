@@ -1,0 +1,8 @@
+timestamp,event_type,source_ip,user,device,status,details
+2026-10-17 09:00:00,failed_login,10.0.0.25,analyst1,LNX-01,failed,Incorrect password
+2026-10-17 09:00:12,failed_login,10.0.0.25,analyst1,LNX-01,failed,Incorrect password
+2026-10-17 09:01:00,successful_login,10.0.0.25,analyst1,LNX-01,success,Login after repeated failures
+2026-10-17 09:03:00,powershell_process_start,10.0.0.25,analyst1,WIN-01,suspicious,Encoded command execution detected
+2026-10-17 09:05:00,privilege_change,10.0.0.25,analyst1,LNX-01,success,Account privilege level increased
+2026-10-17 09:07:00,malware_alert,10.0.0.25,analyst1,WIN-01,alert,Test malware indicator detected
+2026-10-17 09:10:00,successful_login,192.168.1.10,analyst2,LNX-02,success,Normal login

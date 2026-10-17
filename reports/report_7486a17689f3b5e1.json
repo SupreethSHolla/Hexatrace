@@ -1,0 +1,1673 @@
+{
+  "total_events": 52,
+  "suspicious_events": 5,
+  "high_severity": 5,
+  "overall_risk": 90,
+  "events": [
+    {
+      "event_id": "EVT-0001",
+      "timestamp": "2026-10-17T08:00:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0002",
+      "timestamp": "2026-10-17T08:00:05+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0003",
+      "timestamp": "2026-10-17T08:00:10+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0004",
+      "timestamp": "2026-10-17T08:00:15+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0005",
+      "timestamp": "2026-10-17T08:00:20+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0006",
+      "timestamp": "2026-10-17T08:01:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal login",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0007",
+      "timestamp": "2026-10-17T08:02:00+00:00",
+      "event_type": "file_access",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Viewed report",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0008",
+      "timestamp": "2026-10-17T08:03:00+00:00",
+      "event_type": "web_request",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "blocked",
+      "details": "SQL injection attempt",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0009",
+      "timestamp": "2026-10-17T08:03:05+00:00",
+      "event_type": "web_request",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "blocked",
+      "details": "Union select detected",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0010",
+      "timestamp": "2026-10-17T08:04:00+00:00",
+      "event_type": "malware_alert",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Suspicious executable",
+      "risk_score": 90,
+      "severity": "Critical",
+      "explanation": "A malware alert was recorded in the input logs.",
+      "recommendations": [
+        "Validate the alert and follow your organization's incident-response procedure.",
+        "Review the event and its related evidence before taking action."
+      ]
+    },
+    {
+      "event_id": "EVT-0011",
+      "timestamp": "2026-10-17T08:05:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0012",
+      "timestamp": "2026-10-17T08:05:30+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Login successful",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0013",
+      "timestamp": "2026-10-17T08:06:00+00:00",
+      "event_type": "file_access",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Downloaded report",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0014",
+      "timestamp": "2026-10-17T08:07:00+00:00",
+      "event_type": "access",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "blocked",
+      "details": "Unauthorized access",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0015",
+      "timestamp": "2026-10-17T08:08:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal login",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0016",
+      "timestamp": "2026-10-17T08:09:00+00:00",
+      "event_type": "network_alert",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Possible command and control beacon",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0017",
+      "timestamp": "2026-10-17T08:10:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0018",
+      "timestamp": "2026-10-17T08:10:05+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0019",
+      "timestamp": "2026-10-17T08:10:10+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0020",
+      "timestamp": "2026-10-17T08:11:00+00:00",
+      "event_type": "logout",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "User logged out",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0021",
+      "timestamp": "2026-10-17T08:12:00+00:00",
+      "event_type": "web_request",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "blocked",
+      "details": "Path traversal attempt",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0022",
+      "timestamp": "2026-10-17T08:13:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal login",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0023",
+      "timestamp": "2026-10-17T08:14:00+00:00",
+      "event_type": "privilege_change",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Unexpected privilege escalation",
+      "risk_score": 70,
+      "severity": "High",
+      "explanation": "Account privileges changed.",
+      "recommendations": [
+        "Review the event and its related evidence before taking action.",
+        "Verify whether the privilege change was authorized."
+      ]
+    },
+    {
+      "event_id": "EVT-0024",
+      "timestamp": "2026-10-17T08:15:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0025",
+      "timestamp": "2026-10-17T08:16:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal login",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0026",
+      "timestamp": "2026-10-17T08:17:00+00:00",
+      "event_type": "network_alert",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Port scanning pattern",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0027",
+      "timestamp": "2026-10-17T08:18:00+00:00",
+      "event_type": "file_access",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Viewed document",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0028",
+      "timestamp": "2026-10-17T08:19:00+00:00",
+      "event_type": "malware_alert",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Ransomware indicator",
+      "risk_score": 90,
+      "severity": "Critical",
+      "explanation": "A malware alert was recorded in the input logs.",
+      "recommendations": [
+        "Validate the alert and follow your organization's incident-response procedure.",
+        "Review the event and its related evidence before taking action."
+      ]
+    },
+    {
+      "event_id": "EVT-0029",
+      "timestamp": "2026-10-17T08:20:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0030",
+      "timestamp": "2026-10-17T08:21:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0031",
+      "timestamp": "2026-10-17T08:22:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0032",
+      "timestamp": "2026-10-17T08:23:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal login",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0033",
+      "timestamp": "2026-10-17T08:24:00+00:00",
+      "event_type": "web_request",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "blocked",
+      "details": "Script injection pattern",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0034",
+      "timestamp": "2026-10-17T08:25:00+00:00",
+      "event_type": "file_access",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Downloaded file",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0035",
+      "timestamp": "2026-10-17T08:26:00+00:00",
+      "event_type": "access",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "blocked",
+      "details": "Unauthorized access attempt",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0036",
+      "timestamp": "2026-10-17T08:27:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0037",
+      "timestamp": "2026-10-17T08:28:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal login",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0038",
+      "timestamp": "2026-10-17T08:29:00+00:00",
+      "event_type": "network_alert",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Unusual outbound traffic",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0039",
+      "timestamp": "2026-10-17T08:30:00+00:00",
+      "event_type": "logout",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal logout",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0040",
+      "timestamp": "2026-10-17T08:31:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0041",
+      "timestamp": "2026-10-17T08:32:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0042",
+      "timestamp": "2026-10-17T08:33:00+00:00",
+      "event_type": "malware_alert",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Trojan indicator",
+      "risk_score": 90,
+      "severity": "Critical",
+      "explanation": "A malware alert was recorded in the input logs.",
+      "recommendations": [
+        "Validate the alert and follow your organization's incident-response procedure.",
+        "Review the event and its related evidence before taking action."
+      ]
+    },
+    {
+      "event_id": "EVT-0043",
+      "timestamp": "2026-10-17T08:34:00+00:00",
+      "event_type": "file_access",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Viewed report",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0044",
+      "timestamp": "2026-10-17T08:35:00+00:00",
+      "event_type": "privilege_change",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Unexpected administrator access",
+      "risk_score": 70,
+      "severity": "High",
+      "explanation": "Account privileges changed.",
+      "recommendations": [
+        "Review the event and its related evidence before taking action.",
+        "Verify whether the privilege change was authorized."
+      ]
+    },
+    {
+      "event_id": "EVT-0045",
+      "timestamp": "2026-10-17T08:36:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0046",
+      "timestamp": "2026-10-17T08:37:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal login",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0047",
+      "timestamp": "2026-10-17T08:38:00+00:00",
+      "event_type": "web_request",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "blocked",
+      "details": "SQL injection attempt",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0048",
+      "timestamp": "2026-10-17T08:39:00+00:00",
+      "event_type": "file_access",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Viewed dashboard",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0049",
+      "timestamp": "2026-10-17T08:40:00+00:00",
+      "event_type": "network_alert",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "detected",
+      "details": "Possible command and control beacon",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0050",
+      "timestamp": "2026-10-17T08:41:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "192.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "failed",
+      "details": "Invalid password",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0051",
+      "timestamp": "2026-10-17T08:42:00+00:00",
+      "event_type": "login",
+      "source_ip_masked": "198.51.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "success",
+      "details": "Normal login",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    },
+    {
+      "event_id": "EVT-0052",
+      "timestamp": "2026-10-17T08:43:00+00:00",
+      "event_type": "access",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "device": "unknown",
+      "status": "blocked",
+      "details": "Unauthorized access",
+      "risk_score": 0,
+      "severity": "Low",
+      "explanation": "No specific detection rule matched this event.",
+      "recommendations": [
+        "Continue monitoring and correlate with other events."
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "INC-001",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "event_count": 1,
+      "risk_score": 90,
+      "severity": "Critical",
+      "start_time": "2026-10-17T08:04:00+00:00",
+      "end_time": "2026-10-17T08:04:00+00:00",
+      "timeline": [
+        {
+          "timestamp": "2026-10-17T08:04:00+00:00",
+          "event_type": "malware_alert",
+          "event_id": "EVT-0010",
+          "explanation": "A malware alert was recorded in the input logs."
+        }
+      ],
+      "evidence_gaps": [
+        "Collect endpoint and malware investigation evidence.",
+        "Find related events from other hosts, accounts, or log sources.",
+        "Confirm the identity and ownership of the affected device."
+      ],
+      "recommended_actions": [
+        "Review the event and its related evidence before taking action.",
+        "Validate the alert and follow your organization's incident-response procedure."
+      ],
+      "review_status": "Confirmed"
+    },
+    {
+      "incident_id": "INC-003",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "event_count": 1,
+      "risk_score": 90,
+      "severity": "Critical",
+      "start_time": "2026-10-17T08:19:00+00:00",
+      "end_time": "2026-10-17T08:19:00+00:00",
+      "timeline": [
+        {
+          "timestamp": "2026-10-17T08:19:00+00:00",
+          "event_type": "malware_alert",
+          "event_id": "EVT-0028",
+          "explanation": "A malware alert was recorded in the input logs."
+        }
+      ],
+      "evidence_gaps": [
+        "Collect endpoint and malware investigation evidence.",
+        "Find related events from other hosts, accounts, or log sources.",
+        "Confirm the identity and ownership of the affected device."
+      ],
+      "recommended_actions": [
+        "Review the event and its related evidence before taking action.",
+        "Validate the alert and follow your organization's incident-response procedure."
+      ],
+      "review_status": "Pending analyst review"
+    },
+    {
+      "incident_id": "INC-004",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "event_count": 1,
+      "risk_score": 90,
+      "severity": "Critical",
+      "start_time": "2026-10-17T08:33:00+00:00",
+      "end_time": "2026-10-17T08:33:00+00:00",
+      "timeline": [
+        {
+          "timestamp": "2026-10-17T08:33:00+00:00",
+          "event_type": "malware_alert",
+          "event_id": "EVT-0042",
+          "explanation": "A malware alert was recorded in the input logs."
+        }
+      ],
+      "evidence_gaps": [
+        "Collect endpoint and malware investigation evidence.",
+        "Find related events from other hosts, accounts, or log sources.",
+        "Confirm the identity and ownership of the affected device."
+      ],
+      "recommended_actions": [
+        "Review the event and its related evidence before taking action.",
+        "Validate the alert and follow your organization's incident-response procedure."
+      ],
+      "review_status": "Pending analyst review"
+    },
+    {
+      "incident_id": "INC-002",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "event_count": 1,
+      "risk_score": 70,
+      "severity": "High",
+      "start_time": "2026-10-17T08:14:00+00:00",
+      "end_time": "2026-10-17T08:14:00+00:00",
+      "timeline": [
+        {
+          "timestamp": "2026-10-17T08:14:00+00:00",
+          "event_type": "privilege_change",
+          "event_id": "EVT-0023",
+          "explanation": "Account privileges changed."
+        }
+      ],
+      "evidence_gaps": [
+        "Obtain the authorization record for the privilege change.",
+        "Find related events from other hosts, accounts, or log sources."
+      ],
+      "recommended_actions": [
+        "Review the event and its related evidence before taking action.",
+        "Verify whether the privilege change was authorized."
+      ],
+      "review_status": "Pending analyst review"
+    },
+    {
+      "incident_id": "INC-005",
+      "source_ip_masked": "203.0.x.x",
+      "user_masked": "unknown",
+      "event_count": 1,
+      "risk_score": 70,
+      "severity": "High",
+      "start_time": "2026-10-17T08:35:00+00:00",
+      "end_time": "2026-10-17T08:35:00+00:00",
+      "timeline": [
+        {
+          "timestamp": "2026-10-17T08:35:00+00:00",
+          "event_type": "privilege_change",
+          "event_id": "EVT-0044",
+          "explanation": "Account privileges changed."
+        }
+      ],
+      "evidence_gaps": [
+        "Obtain the authorization record for the privilege change.",
+        "Find related events from other hosts, accounts, or log sources."
+      ],
+      "recommended_actions": [
+        "Review the event and its related evidence before taking action.",
+        "Verify whether the privilege change was authorized."
+      ],
+      "review_status": "Confirmed"
+    }
+  ],
+  "ledger": [
+    {
+      "event_id": "EVT-0001",
+      "previous_hash": "GENESIS",
+      "event_hash": "4493310279b093ce88f09aafa7f64025a0b456c62a66cdaac7fe6374920213a6",
+      "payload": {
+        "event_id": "EVT-0001",
+        "timestamp": "2026-10-17T08:00:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0002",
+      "previous_hash": "4493310279b093ce88f09aafa7f64025a0b456c62a66cdaac7fe6374920213a6",
+      "event_hash": "13e744755abe14d6a8fcdd71c6d5f9b80dac5698bcd38c56cd34957d2d8bb2a0",
+      "payload": {
+        "event_id": "EVT-0002",
+        "timestamp": "2026-10-17T08:00:05+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0003",
+      "previous_hash": "13e744755abe14d6a8fcdd71c6d5f9b80dac5698bcd38c56cd34957d2d8bb2a0",
+      "event_hash": "289a41e06a7528d72f89e6db6a392946700b56b1ab26f7ef277ba6067a34a49b",
+      "payload": {
+        "event_id": "EVT-0003",
+        "timestamp": "2026-10-17T08:00:10+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0004",
+      "previous_hash": "289a41e06a7528d72f89e6db6a392946700b56b1ab26f7ef277ba6067a34a49b",
+      "event_hash": "e3dbbe5f7810e19b0a87fa7e82de72068e634af3bb314acfdd8979ab2d69b0e5",
+      "payload": {
+        "event_id": "EVT-0004",
+        "timestamp": "2026-10-17T08:00:15+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0005",
+      "previous_hash": "e3dbbe5f7810e19b0a87fa7e82de72068e634af3bb314acfdd8979ab2d69b0e5",
+      "event_hash": "8880b9226b8b17cb841ef231681fa4cb14d8384c67911a2b16451cea505387c4",
+      "payload": {
+        "event_id": "EVT-0005",
+        "timestamp": "2026-10-17T08:00:20+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0006",
+      "previous_hash": "8880b9226b8b17cb841ef231681fa4cb14d8384c67911a2b16451cea505387c4",
+      "event_hash": "cdf31bad03a101c9b2cab043f5630882d4ec5a44ae2e643301e90905bea2b42b",
+      "payload": {
+        "event_id": "EVT-0006",
+        "timestamp": "2026-10-17T08:01:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0007",
+      "previous_hash": "cdf31bad03a101c9b2cab043f5630882d4ec5a44ae2e643301e90905bea2b42b",
+      "event_hash": "1bae6d56d71e883c4cf099e1632c4491139c1249d933e33279f304e1b59f5fc8",
+      "payload": {
+        "event_id": "EVT-0007",
+        "timestamp": "2026-10-17T08:02:00+00:00",
+        "event_type": "file_access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0008",
+      "previous_hash": "1bae6d56d71e883c4cf099e1632c4491139c1249d933e33279f304e1b59f5fc8",
+      "event_hash": "5926073bcdcce19dddce97d38876e1d2b301b71425041381ac1b28815e0927c6",
+      "payload": {
+        "event_id": "EVT-0008",
+        "timestamp": "2026-10-17T08:03:00+00:00",
+        "event_type": "web_request",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0009",
+      "previous_hash": "5926073bcdcce19dddce97d38876e1d2b301b71425041381ac1b28815e0927c6",
+      "event_hash": "67071525da0f10b34bc231083071114679dfaf89e76a43ba3d6a82f2d6851f49",
+      "payload": {
+        "event_id": "EVT-0009",
+        "timestamp": "2026-10-17T08:03:05+00:00",
+        "event_type": "web_request",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0010",
+      "previous_hash": "67071525da0f10b34bc231083071114679dfaf89e76a43ba3d6a82f2d6851f49",
+      "event_hash": "f4ce3faa57e19c7ae35989757327eddf8a8870009129f3ab2405a5e26a775d44",
+      "payload": {
+        "event_id": "EVT-0010",
+        "timestamp": "2026-10-17T08:04:00+00:00",
+        "event_type": "malware_alert",
+        "risk_score": 90,
+        "severity": "Critical",
+        "explanation": "A malware alert was recorded in the input logs."
+      }
+    },
+    {
+      "event_id": "EVT-0011",
+      "previous_hash": "f4ce3faa57e19c7ae35989757327eddf8a8870009129f3ab2405a5e26a775d44",
+      "event_hash": "8cbed77cdeaeadf221c344583674a24fccaeaeb5c13b3a8383079aa24ec9bffb",
+      "payload": {
+        "event_id": "EVT-0011",
+        "timestamp": "2026-10-17T08:05:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0012",
+      "previous_hash": "8cbed77cdeaeadf221c344583674a24fccaeaeb5c13b3a8383079aa24ec9bffb",
+      "event_hash": "3f2c83b75773dded01f4ce8e0ab7aaf904a7e661a04b0dcf5059b53e7410c354",
+      "payload": {
+        "event_id": "EVT-0012",
+        "timestamp": "2026-10-17T08:05:30+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0013",
+      "previous_hash": "3f2c83b75773dded01f4ce8e0ab7aaf904a7e661a04b0dcf5059b53e7410c354",
+      "event_hash": "2af6f30fc000471d4031800d5ec4b3882478a7e9d223a17c52d688d7aa322834",
+      "payload": {
+        "event_id": "EVT-0013",
+        "timestamp": "2026-10-17T08:06:00+00:00",
+        "event_type": "file_access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0014",
+      "previous_hash": "2af6f30fc000471d4031800d5ec4b3882478a7e9d223a17c52d688d7aa322834",
+      "event_hash": "e8af9e227256e0786bb89c8dd8f2fb5ea31730df937ea4617240704ee6b16c39",
+      "payload": {
+        "event_id": "EVT-0014",
+        "timestamp": "2026-10-17T08:07:00+00:00",
+        "event_type": "access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0015",
+      "previous_hash": "e8af9e227256e0786bb89c8dd8f2fb5ea31730df937ea4617240704ee6b16c39",
+      "event_hash": "96d51959b107482fccb13f6e653aaa525e4aaa0a2865936f40e14a1ddb1fa22c",
+      "payload": {
+        "event_id": "EVT-0015",
+        "timestamp": "2026-10-17T08:08:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0016",
+      "previous_hash": "96d51959b107482fccb13f6e653aaa525e4aaa0a2865936f40e14a1ddb1fa22c",
+      "event_hash": "90c00e7803eb005b2bb07a6c7c1d2b35064b98cae2d26ffa3022f7be198d6f27",
+      "payload": {
+        "event_id": "EVT-0016",
+        "timestamp": "2026-10-17T08:09:00+00:00",
+        "event_type": "network_alert",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0017",
+      "previous_hash": "90c00e7803eb005b2bb07a6c7c1d2b35064b98cae2d26ffa3022f7be198d6f27",
+      "event_hash": "bd38f1f5f90c844d6a2c811d98516c56bddc2d030d6c85c67261bebc64f3342a",
+      "payload": {
+        "event_id": "EVT-0017",
+        "timestamp": "2026-10-17T08:10:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0018",
+      "previous_hash": "bd38f1f5f90c844d6a2c811d98516c56bddc2d030d6c85c67261bebc64f3342a",
+      "event_hash": "67d44969534d122ce1f65c6b37fb562c561537ed7b88b8bc43f3f4f8f5bfab2f",
+      "payload": {
+        "event_id": "EVT-0018",
+        "timestamp": "2026-10-17T08:10:05+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0019",
+      "previous_hash": "67d44969534d122ce1f65c6b37fb562c561537ed7b88b8bc43f3f4f8f5bfab2f",
+      "event_hash": "1e340060782fff57c63c7558667cd69ed3de9bba8ba9ea885f92498d0d2260a8",
+      "payload": {
+        "event_id": "EVT-0019",
+        "timestamp": "2026-10-17T08:10:10+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0020",
+      "previous_hash": "1e340060782fff57c63c7558667cd69ed3de9bba8ba9ea885f92498d0d2260a8",
+      "event_hash": "4d30bc87d1d201fbe7249c3d2244fb35e02ff227a94de7172f325216f809ddd3",
+      "payload": {
+        "event_id": "EVT-0020",
+        "timestamp": "2026-10-17T08:11:00+00:00",
+        "event_type": "logout",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0021",
+      "previous_hash": "4d30bc87d1d201fbe7249c3d2244fb35e02ff227a94de7172f325216f809ddd3",
+      "event_hash": "0ea86b31b3e29d76bde497517b79191ca8ef27b80e051620cc2302d2a6cbf6d7",
+      "payload": {
+        "event_id": "EVT-0021",
+        "timestamp": "2026-10-17T08:12:00+00:00",
+        "event_type": "web_request",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0022",
+      "previous_hash": "0ea86b31b3e29d76bde497517b79191ca8ef27b80e051620cc2302d2a6cbf6d7",
+      "event_hash": "ce80f56098da4dff0d30c71ff14ee70c8651cce8427c628b03de01a7ee5ade8c",
+      "payload": {
+        "event_id": "EVT-0022",
+        "timestamp": "2026-10-17T08:13:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0023",
+      "previous_hash": "ce80f56098da4dff0d30c71ff14ee70c8651cce8427c628b03de01a7ee5ade8c",
+      "event_hash": "c2e9599a2dd9bc11939a0ae916b96702daf9de74fd81eb0f572b6bd5da274bd4",
+      "payload": {
+        "event_id": "EVT-0023",
+        "timestamp": "2026-10-17T08:14:00+00:00",
+        "event_type": "privilege_change",
+        "risk_score": 70,
+        "severity": "High",
+        "explanation": "Account privileges changed."
+      }
+    },
+    {
+      "event_id": "EVT-0024",
+      "previous_hash": "c2e9599a2dd9bc11939a0ae916b96702daf9de74fd81eb0f572b6bd5da274bd4",
+      "event_hash": "cdaeac4179e5884df706ac19ba3f2577825008909971a14496250ec463e66bc7",
+      "payload": {
+        "event_id": "EVT-0024",
+        "timestamp": "2026-10-17T08:15:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0025",
+      "previous_hash": "cdaeac4179e5884df706ac19ba3f2577825008909971a14496250ec463e66bc7",
+      "event_hash": "eaae75180f96ba9a748c38cc93d502a47cf8584b320220b06fd96df13ce33f99",
+      "payload": {
+        "event_id": "EVT-0025",
+        "timestamp": "2026-10-17T08:16:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0026",
+      "previous_hash": "eaae75180f96ba9a748c38cc93d502a47cf8584b320220b06fd96df13ce33f99",
+      "event_hash": "7ca64e1095da5467152d1a24aa0e1eef44b334580e65735b09370a2453d31c18",
+      "payload": {
+        "event_id": "EVT-0026",
+        "timestamp": "2026-10-17T08:17:00+00:00",
+        "event_type": "network_alert",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0027",
+      "previous_hash": "7ca64e1095da5467152d1a24aa0e1eef44b334580e65735b09370a2453d31c18",
+      "event_hash": "6af73e589a930b7a7bcc0584ad16ed80bd89a80b94338d87b82bca0817a472e8",
+      "payload": {
+        "event_id": "EVT-0027",
+        "timestamp": "2026-10-17T08:18:00+00:00",
+        "event_type": "file_access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0028",
+      "previous_hash": "6af73e589a930b7a7bcc0584ad16ed80bd89a80b94338d87b82bca0817a472e8",
+      "event_hash": "ead46845e78a6aecd1923a0ec2c6ecbc64a7ed872bb4c67cf3de079960416765",
+      "payload": {
+        "event_id": "EVT-0028",
+        "timestamp": "2026-10-17T08:19:00+00:00",
+        "event_type": "malware_alert",
+        "risk_score": 90,
+        "severity": "Critical",
+        "explanation": "A malware alert was recorded in the input logs."
+      }
+    },
+    {
+      "event_id": "EVT-0029",
+      "previous_hash": "ead46845e78a6aecd1923a0ec2c6ecbc64a7ed872bb4c67cf3de079960416765",
+      "event_hash": "56c3fdc97682b7104b3f7e119be4d90e7fa4c9a3cd22ea5cd6e2380c8589214e",
+      "payload": {
+        "event_id": "EVT-0029",
+        "timestamp": "2026-10-17T08:20:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0030",
+      "previous_hash": "56c3fdc97682b7104b3f7e119be4d90e7fa4c9a3cd22ea5cd6e2380c8589214e",
+      "event_hash": "d0b102ac16c62a1bac8b8fee714089f9cb1d544ec87471f2d5cccf541253a14d",
+      "payload": {
+        "event_id": "EVT-0030",
+        "timestamp": "2026-10-17T08:21:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0031",
+      "previous_hash": "d0b102ac16c62a1bac8b8fee714089f9cb1d544ec87471f2d5cccf541253a14d",
+      "event_hash": "9fe8cc19613e3fc0c4d36df8290b0101041415993a1fd0431c2d6cd26ae70232",
+      "payload": {
+        "event_id": "EVT-0031",
+        "timestamp": "2026-10-17T08:22:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0032",
+      "previous_hash": "9fe8cc19613e3fc0c4d36df8290b0101041415993a1fd0431c2d6cd26ae70232",
+      "event_hash": "751b7c36790435bea20729d8e4c58b1b7c95c1c2d77489684bb0faa57ff1264f",
+      "payload": {
+        "event_id": "EVT-0032",
+        "timestamp": "2026-10-17T08:23:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0033",
+      "previous_hash": "751b7c36790435bea20729d8e4c58b1b7c95c1c2d77489684bb0faa57ff1264f",
+      "event_hash": "eb17a6008fb83744796fcce1423348db0c7011f1f0b3306bd87994dee392c072",
+      "payload": {
+        "event_id": "EVT-0033",
+        "timestamp": "2026-10-17T08:24:00+00:00",
+        "event_type": "web_request",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0034",
+      "previous_hash": "eb17a6008fb83744796fcce1423348db0c7011f1f0b3306bd87994dee392c072",
+      "event_hash": "0d6f4c4c6f646a7c85854b1a05824164c00014dffdb73551afcc32ff5b5e829c",
+      "payload": {
+        "event_id": "EVT-0034",
+        "timestamp": "2026-10-17T08:25:00+00:00",
+        "event_type": "file_access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0035",
+      "previous_hash": "0d6f4c4c6f646a7c85854b1a05824164c00014dffdb73551afcc32ff5b5e829c",
+      "event_hash": "d3358cdd5d76558446b110813ab77874c2d3b6bcce8b330c5d02eb0351b629cf",
+      "payload": {
+        "event_id": "EVT-0035",
+        "timestamp": "2026-10-17T08:26:00+00:00",
+        "event_type": "access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0036",
+      "previous_hash": "d3358cdd5d76558446b110813ab77874c2d3b6bcce8b330c5d02eb0351b629cf",
+      "event_hash": "9eae447348fe964a3d3d0b67cac60ca4078e4b1a4d855b741bc6cb50be6cf3d8",
+      "payload": {
+        "event_id": "EVT-0036",
+        "timestamp": "2026-10-17T08:27:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0037",
+      "previous_hash": "9eae447348fe964a3d3d0b67cac60ca4078e4b1a4d855b741bc6cb50be6cf3d8",
+      "event_hash": "2eee2f9f8e0f2258b6aa40768eacfe8dc7e5f2224e696b4d1e2902c75150f457",
+      "payload": {
+        "event_id": "EVT-0037",
+        "timestamp": "2026-10-17T08:28:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0038",
+      "previous_hash": "2eee2f9f8e0f2258b6aa40768eacfe8dc7e5f2224e696b4d1e2902c75150f457",
+      "event_hash": "9c5c38def85f646fa0e6146f9e9c0b9b0ce8606312f2143cdf68dfdd4c9509f6",
+      "payload": {
+        "event_id": "EVT-0038",
+        "timestamp": "2026-10-17T08:29:00+00:00",
+        "event_type": "network_alert",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0039",
+      "previous_hash": "9c5c38def85f646fa0e6146f9e9c0b9b0ce8606312f2143cdf68dfdd4c9509f6",
+      "event_hash": "46a31a2fcaca3e31d71683020683fdf50367ab4ba7d9b82317b22f4e2f0281d8",
+      "payload": {
+        "event_id": "EVT-0039",
+        "timestamp": "2026-10-17T08:30:00+00:00",
+        "event_type": "logout",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0040",
+      "previous_hash": "46a31a2fcaca3e31d71683020683fdf50367ab4ba7d9b82317b22f4e2f0281d8",
+      "event_hash": "5d3a6e06502255edec6b15844d261ee875e3507e3c734167c9f7142cab8e3da0",
+      "payload": {
+        "event_id": "EVT-0040",
+        "timestamp": "2026-10-17T08:31:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0041",
+      "previous_hash": "5d3a6e06502255edec6b15844d261ee875e3507e3c734167c9f7142cab8e3da0",
+      "event_hash": "009a5a775ffe1d621d350350d4e8f2dcdf8615f4d0b8fc3b9bd8c1bf2b79f85f",
+      "payload": {
+        "event_id": "EVT-0041",
+        "timestamp": "2026-10-17T08:32:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0042",
+      "previous_hash": "009a5a775ffe1d621d350350d4e8f2dcdf8615f4d0b8fc3b9bd8c1bf2b79f85f",
+      "event_hash": "65e7407d6cd6b5856f63339fdc1bf30201c1c8c51caedff59d81b7e44b5627f8",
+      "payload": {
+        "event_id": "EVT-0042",
+        "timestamp": "2026-10-17T08:33:00+00:00",
+        "event_type": "malware_alert",
+        "risk_score": 90,
+        "severity": "Critical",
+        "explanation": "A malware alert was recorded in the input logs."
+      }
+    },
+    {
+      "event_id": "EVT-0043",
+      "previous_hash": "65e7407d6cd6b5856f63339fdc1bf30201c1c8c51caedff59d81b7e44b5627f8",
+      "event_hash": "4ede695d15954ce29d34b1549a385ee8802d1c21ffb70b9138a65d7cf15eda59",
+      "payload": {
+        "event_id": "EVT-0043",
+        "timestamp": "2026-10-17T08:34:00+00:00",
+        "event_type": "file_access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0044",
+      "previous_hash": "4ede695d15954ce29d34b1549a385ee8802d1c21ffb70b9138a65d7cf15eda59",
+      "event_hash": "03f18ea3aca88c050fc9e6db95d79a9f44ad1637c4a2526185c361ebe2a705a4",
+      "payload": {
+        "event_id": "EVT-0044",
+        "timestamp": "2026-10-17T08:35:00+00:00",
+        "event_type": "privilege_change",
+        "risk_score": 70,
+        "severity": "High",
+        "explanation": "Account privileges changed."
+      }
+    },
+    {
+      "event_id": "EVT-0045",
+      "previous_hash": "03f18ea3aca88c050fc9e6db95d79a9f44ad1637c4a2526185c361ebe2a705a4",
+      "event_hash": "f4641951fcf8d1b4da0a0c31dd8d878e70c3f73362f8ec30917095c12b67ff8d",
+      "payload": {
+        "event_id": "EVT-0045",
+        "timestamp": "2026-10-17T08:36:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0046",
+      "previous_hash": "f4641951fcf8d1b4da0a0c31dd8d878e70c3f73362f8ec30917095c12b67ff8d",
+      "event_hash": "78f34763fa5a97fede8f440d7a54da9b632b4f0ae30c135eef6b3d36b801ea36",
+      "payload": {
+        "event_id": "EVT-0046",
+        "timestamp": "2026-10-17T08:37:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0047",
+      "previous_hash": "78f34763fa5a97fede8f440d7a54da9b632b4f0ae30c135eef6b3d36b801ea36",
+      "event_hash": "7899ecc6aa7b59e75cfc0106c1973f18a80591f57f75a0e0c82b9ec7b6a36064",
+      "payload": {
+        "event_id": "EVT-0047",
+        "timestamp": "2026-10-17T08:38:00+00:00",
+        "event_type": "web_request",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0048",
+      "previous_hash": "7899ecc6aa7b59e75cfc0106c1973f18a80591f57f75a0e0c82b9ec7b6a36064",
+      "event_hash": "2803b53e896910fb5b689a4bc8960f9658f4b11a42c33b158d56d18aee567a76",
+      "payload": {
+        "event_id": "EVT-0048",
+        "timestamp": "2026-10-17T08:39:00+00:00",
+        "event_type": "file_access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0049",
+      "previous_hash": "2803b53e896910fb5b689a4bc8960f9658f4b11a42c33b158d56d18aee567a76",
+      "event_hash": "3766ec011ae04b42f1c5b084b2f0d6e1fcb585591894c5b1e47326331d2877c8",
+      "payload": {
+        "event_id": "EVT-0049",
+        "timestamp": "2026-10-17T08:40:00+00:00",
+        "event_type": "network_alert",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0050",
+      "previous_hash": "3766ec011ae04b42f1c5b084b2f0d6e1fcb585591894c5b1e47326331d2877c8",
+      "event_hash": "947c9152b7103c0e707724fc4309babbdd8482695637b80373468f82a72799a2",
+      "payload": {
+        "event_id": "EVT-0050",
+        "timestamp": "2026-10-17T08:41:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0051",
+      "previous_hash": "947c9152b7103c0e707724fc4309babbdd8482695637b80373468f82a72799a2",
+      "event_hash": "58d9b195a67ace80bbfa6a7df352043cadfb609b349d22c6d8077a050a075f2d",
+      "payload": {
+        "event_id": "EVT-0051",
+        "timestamp": "2026-10-17T08:42:00+00:00",
+        "event_type": "login",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    },
+    {
+      "event_id": "EVT-0052",
+      "previous_hash": "58d9b195a67ace80bbfa6a7df352043cadfb609b349d22c6d8077a050a075f2d",
+      "event_hash": "334ade1bbf3c607c8ac1c01a6c99dfaf3c0af9a87f72475968d88515d37d449f",
+      "payload": {
+        "event_id": "EVT-0052",
+        "timestamp": "2026-10-17T08:43:00+00:00",
+        "event_type": "access",
+        "risk_score": 0,
+        "severity": "Low",
+        "explanation": "No specific detection rule matched this event."
+      }
+    }
+  ],
+  "ledger_valid": true,
+  "analysis_method": "Transparent rule-based prototype; scores are heuristic, not calibrated probabilities or a trained AI prediction.",
+  "reviews": {
+    "INC-001": "Confirmed",
+    "INC-003": "Pending analyst review",
+    "INC-004": "Pending analyst review",
+    "INC-002": "Pending analyst review",
+    "INC-005": "Confirmed"
+  },
+  "report_note": "Rule-based prototype. Verify findings before responding to an incident."
+}
