@@ -1,0 +1,53 @@
+timestamp,source_ip,username,event_type,status,failed_attempts,details
+2026-10-17 08:00:00,192.0.2.10,admin,login,failed,1,Invalid password
+2026-10-17 08:00:05,192.0.2.10,admin,login,failed,2,Invalid password
+2026-10-17 08:00:10,192.0.2.10,admin,login,failed,3,Invalid password
+2026-10-17 08:00:15,192.0.2.10,admin,login,failed,4,Invalid password
+2026-10-17 08:00:20,192.0.2.10,admin,login,failed,5,Invalid password
+2026-10-17 08:01:00,198.51.100.20,user01,login,success,0,Normal login
+2026-10-17 08:02:00,198.51.100.20,user01,file_access,success,0,Viewed report
+2026-10-17 08:03:00,203.0.113.50,guest,web_request,blocked,0,SQL injection attempt
+2026-10-17 08:03:05,203.0.113.50,guest,web_request,blocked,0,Union select detected
+2026-10-17 08:04:00,203.0.113.70,unknown,malware_alert,detected,0,Suspicious executable
+2026-10-17 08:05:00,192.0.2.80,employee02,login,failed,1,Invalid password
+2026-10-17 08:05:30,192.0.2.80,employee02,login,success,0,Login successful
+2026-10-17 08:06:00,198.51.100.35,user02,file_access,success,0,Downloaded report
+2026-10-17 08:07:00,203.0.113.90,unknown,access,blocked,0,Unauthorized access
+2026-10-17 08:08:00,198.51.100.44,user03,login,success,0,Normal login
+2026-10-17 08:09:00,203.0.113.70,unknown,network_alert,detected,0,Possible command and control beacon
+2026-10-17 08:10:00,192.0.2.99,admin,login,failed,1,Invalid password
+2026-10-17 08:10:05,192.0.2.99,admin,login,failed,2,Invalid password
+2026-10-17 08:10:10,192.0.2.99,admin,login,failed,3,Invalid password
+2026-10-17 08:11:00,198.51.100.20,user01,logout,success,0,User logged out
+2026-10-17 08:12:00,203.0.113.120,guest,web_request,blocked,0,Path traversal attempt
+2026-10-17 08:13:00,198.51.100.60,user04,login,success,0,Normal login
+2026-10-17 08:14:00,203.0.113.130,unknown,privilege_change,detected,0,Unexpected privilege escalation
+2026-10-17 08:15:00,192.0.2.10,admin,login,failed,6,Invalid password
+2026-10-17 08:16:00,198.51.100.61,user05,login,success,0,Normal login
+2026-10-17 08:17:00,203.0.113.150,unknown,network_alert,detected,0,Port scanning pattern
+2026-10-17 08:18:00,198.51.100.62,user06,file_access,success,0,Viewed document
+2026-10-17 08:19:00,203.0.113.151,unknown,malware_alert,detected,0,Ransomware indicator
+2026-10-17 08:20:00,192.0.2.81,employee03,login,failed,1,Invalid password
+2026-10-17 08:21:00,192.0.2.81,employee03,login,failed,2,Invalid password
+2026-10-17 08:22:00,192.0.2.81,employee03,login,failed,3,Invalid password
+2026-10-17 08:23:00,198.51.100.63,user07,login,success,0,Normal login
+2026-10-17 08:24:00,203.0.113.152,guest,web_request,blocked,0,Script injection pattern
+2026-10-17 08:25:00,198.51.100.64,user08,file_access,success,0,Downloaded file
+2026-10-17 08:26:00,203.0.113.153,unknown,access,blocked,0,Unauthorized access attempt
+2026-10-17 08:27:00,192.0.2.82,employee04,login,failed,1,Invalid password
+2026-10-17 08:28:00,198.51.100.65,user09,login,success,0,Normal login
+2026-10-17 08:29:00,203.0.113.154,unknown,network_alert,detected,0,Unusual outbound traffic
+2026-10-17 08:30:00,198.51.100.66,user10,logout,success,0,Normal logout
+2026-10-17 08:31:00,192.0.2.83,employee05,login,failed,1,Invalid password
+2026-10-17 08:32:00,192.0.2.83,employee05,login,failed,2,Invalid password
+2026-10-17 08:33:00,203.0.113.155,unknown,malware_alert,detected,0,Trojan indicator
+2026-10-17 08:34:00,198.51.100.67,user11,file_access,success,0,Viewed report
+2026-10-17 08:35:00,203.0.113.156,unknown,privilege_change,detected,0,Unexpected administrator access
+2026-10-17 08:36:00,192.0.2.84,employee06,login,failed,1,Invalid password
+2026-10-17 08:37:00,198.51.100.68,user12,login,success,0,Normal login
+2026-10-17 08:38:00,203.0.113.157,guest,web_request,blocked,0,SQL injection attempt
+2026-10-17 08:39:00,198.51.100.69,user13,file_access,success,0,Viewed dashboard
+2026-10-17 08:40:00,203.0.113.158,unknown,network_alert,detected,0,Possible command and control beacon
+2026-10-17 08:41:00,192.0.2.85,employee07,login,failed,1,Invalid password
+2026-10-17 08:42:00,198.51.100.70,user14,login,success,0,Normal login
+2026-10-17 08:43:00,203.0.113.159,unknown,access,blocked,0,Unauthorized access
